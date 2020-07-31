@@ -1,0 +1,8 @@
+The Kinamine-Y-Shaker provides the Galaxy instance of the Kinamine tool described in the following paper (Perez, M., Blankenhorn, J., Murray, K. J., & Parker, L. L. (2019). High-throughput identification of FLT3 wild-type and mutant kinase substrate preferences and application to design of sensitive in vitro kinase assay substrates. Molecular & Cellular Proteomics, 18(3), 477-489.))
+although this tool works with Peptide Shaker outputs instead of Protein Pilot outputs
+
+The nbproject, src/kinamine, build.xml and manifest.mf files can all be imported directly into Netbeans in order to edit the java classes of this tool.
+
+The .jar file is the executable of this tool
+
+Kinamine.xml is the Galaxy wrapper of this tool
