@@ -7,7 +7,7 @@
         mkdir -p outputs &&
         ## KimaMine relies on the file name extension for the fasta file
         ln -s '$reference' reference.fasta &&
-        java -Djava.awt.headless=true -jar '$__tool_directory__/KinaMine.jar' '$FDRreport' reference.fasta outputs $fdr output
+        java -Djava.awt.headless=true -jar '$__tool_directory__/Kinamine-Y-shaker.jar' '$FDRreport' reference.fasta outputs $fdr output
     ]]></command>
     <inputs>
         <param format="tabular" name="FDRreport" type="data" label="Distinct Peptide Report"/>
